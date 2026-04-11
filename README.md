@@ -107,29 +107,6 @@ terraform destroy
 
 ---
 
-## 📁 Project Structure
-
-```
-aws-lamp-stack-automation-ansible/
-├── terraform/
-│   ├── main.tf              # EC2 + Security Group resources
-│   ├── variables.tf         # Input variables
-│   ├── outputs.tf           # Public IP output
-│   └── provider.tf          # AWS provider config
-├── ansible/
-│   ├── site.yml             # Master playbook
-│   ├── inventory/
-│   │   └── aws_ec2.yml      # Dynamic EC2 inventory
-│   └── roles/
-│       ├── apache/          # Apache installation + config
-│       ├── mysql/           # MySQL installation + secure setup
-│       └── php/             # PHP installation + app deployment
-├── screenshots/
-└── README.md
-```
-
----
-
 ## 🔑 Key Skills Demonstrated
 
 - Infrastructure as Code (IaC) with Terraform
