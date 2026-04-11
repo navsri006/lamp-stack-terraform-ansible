@@ -16,7 +16,7 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 ---
 
 > **Ansible Playbook Version — LAMP Stack Installed**
-<img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
+<img width="1204" height="669" alt="Screenshot 2025-08-18 214244" src="https://github.com/user-attachments/assets/028ba48b-2afa-4db1-abd8-df6034160bab" />
 
 ---
 
