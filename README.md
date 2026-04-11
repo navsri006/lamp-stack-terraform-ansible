@@ -10,7 +10,6 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 ---
 
 > **AWS EC2 Instance Running — Console View**
-![Uploading Screenshot 2025-08-18 214244.png…]()
 <img width="1902" height="610" alt="Screenshot 2025-08-19 223934" src="https://github.com/user-attachments/assets/611cd73f-60de-49c5-98db-963075060530" />
 
 ---
