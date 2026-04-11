@@ -18,16 +18,17 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 > **Ansible Playbook Version — LAMP Stack Installed**
 <img width="1204" height="669" alt="Screenshot 2025-08-18 214244" src="https://github.com/user-attachments/assets/028ba48b-2afa-4db1-abd8-df6034160bab" />
 
----
-
-> **LAMP Stack Live — Apache Served via Public IP**
-<img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
-
 
 ---
 
 > **LAMP Stack Deployed — Apache Served via Public IP**
 <img width="1143" height="1172" alt="Screenshot 2025-09-17 143435" src="https://github.com/user-attachments/assets/f73d93b3-0efd-45aa-a31b-da0368bffd01" />
+
+---
+
+> **LAMP Stack Live — Apache Served via Public IP**
+<img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
+
 
 --- 
 
