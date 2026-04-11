@@ -7,21 +7,30 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 > **Terraform Plan Output — AWS Resources to be Created**
 <img width="795" height="361" alt="Screenshot 2025-08-19 224044" src="https://github.com/user-attachments/assets/196330f7-d8b4-4905-a524-92a6ed79f3b0" />
 
+---
 
 > **AWS EC2 Instance Running — Console View**
 ![Uploading Screenshot 2025-08-18 214244.png…]()
 <img width="1902" height="610" alt="Screenshot 2025-08-19 223934" src="https://github.com/user-attachments/assets/611cd73f-60de-49c5-98db-963075060530" />
 
-
+---
 
 > **Ansible Playbook Version — LAMP Stack Installed**
 <img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
+
+---
 
 > **LAMP Stack Live — Apache Served via Public IP**
 <img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
 
 
 ---
+
+> **LAMP Stack Deployed — Apache Served via Public IP**
+<img width="1143" height="1172" alt="Screenshot 2025-09-17 143435" src="https://github.com/user-attachments/assets/f73d93b3-0efd-45aa-a31b-da0368bffd01" />
+
+--- 
+
 
 ## 🏗️ Architecture Overview
 
@@ -35,7 +44,7 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 | Cloud Provider | AWS (EC2, VPC, Security Groups, IAM) |
 | Infrastructure as Code | Terraform |
 | Configuration Management | Ansible |
-| OS | Amazon Linux 2 / RHEL |
+| OS | Amazon Linux 2 / Ubuntu |
 | Web Server | Apache HTTP Server |
 | Database | MySQL / MariaDB |
 | App Layer | PHP |
