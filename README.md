@@ -4,45 +4,29 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 
 ---
 
-<img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
-
-
 > **Terraform Plan Output — AWS Resources to be Created**
-![Terraform Plan](screenshots/terraform_plan.png)
+<img width="795" height="361" alt="Screenshot 2025-08-19 224044" src="https://github.com/user-attachments/assets/196330f7-d8b4-4905-a524-92a6ed79f3b0" />
+
 
 > **AWS EC2 Instance Running — Console View**
-![EC2 Running](screenshots/ec2_running.png)
+![Uploading Screenshot 2025-08-18 214244.png…]()
+<img width="1902" height="610" alt="Screenshot 2025-08-19 223934" src="https://github.com/user-attachments/assets/611cd73f-60de-49c5-98db-963075060530" />
 
-> **Ansible Playbook Execution — LAMP Stack Installed**
-![Ansible Run](screenshots/ansible_playbook.png)
+
+
+> **Ansible Playbook Version — LAMP Stack Installed**
+<img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
 
 > **LAMP Stack Live — Apache Served via Public IP**
-![LAMP Live](screenshots/lamp_live.png)
+<img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
+
 
 ---
 
 ## 🏗️ Architecture Overview
 
 ```
-[Local Machine]
-      |
-      ├── terraform apply ──────────────────────────> [AWS]
-      |                                                  |
-      |                                         ┌────────┴────────┐
-      |                                         |                 |
-      |                                    [EC2 Instance]   [Security Group]
-      |                                    Amazon Linux 2   Port 22, 80, 443
-      |                                         |
-      └── ansible-playbook site.yml ──────────> |
-                                                |
-                                    ┌───────────┴───────────┐
-                                    |           |           |
-                                [Apache]    [MySQL]      [PHP]
-                                 Web         Database    App
-                                 Server      Server      Layer
-```
-
----
+<img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
 
 ## 🧰 Tech Stack
 
