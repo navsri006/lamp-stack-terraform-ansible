@@ -28,6 +28,7 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 
 > **LAMP Stack Live — Apache Served via Public IP**
 <img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
+---
 
 ```
 
