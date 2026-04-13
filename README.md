@@ -29,12 +29,7 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 > **LAMP Stack Live — Apache Served via Public IP**
 <img width="420" height="166" alt="Screenshot 2025-09-16 235013" src="https://github.com/user-attachments/assets/21547779-31cd-4897-ab06-408dd37d6143" />
 
-
---- 
-## 🏗️ Architecture Overview
-
 ```
-<img width="636" height="400" alt="Screenshot 2025-09-18 214715" src="https://github.com/user-attachments/assets/105b9714-ed3c-4f48-960a-1b52ccf1f10f" />
 
 ## 🧰 Tech Stack
 
@@ -66,16 +61,6 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 - Configured **MySQL** with a secure initial setup
 - Ensured all configurations are **idempotent** — safe to run multiple times
 
----
-
-## 🚀 How to Deploy
-
-### Prerequisites
-```bash
-# Install required tools
-terraform --version    # >= 1.0
-ansible --version      # >= 2.9
-aws configure          # Set your AWS credentials
 ```
 
 ### Deploy in 3 Steps
