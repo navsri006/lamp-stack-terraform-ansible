@@ -33,6 +33,7 @@ Fully automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC
 --- 
 
 
+
 ## 🏗️ Architecture Overview
 
 ```
